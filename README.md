@@ -12,7 +12,6 @@ Before starting, make sure you have:
 
 * [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 * [Git](https://git-scm.com/)
-* [Original creator](https://github.com/JusperLee/Apollo)
 
 ---
 
