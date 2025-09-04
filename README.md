@@ -38,12 +38,17 @@ rmdir /s /q Apollo-Windows
 
 ```cmd
 conda env create -f look2hear_win.yml -n look2hear_win
+```
+
+### 4. Activate a Conda environment
+
+```cmd
 conda activate look2hear_win
 ```
 
 ---
 
-## 4. Install PyTorch based on your GPU
+## 5. Install PyTorch based on your GPU
 
 Check your CUDA version:
 
@@ -73,7 +78,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ---
 
-## 5. Install additional dependencies
+## 6. Install additional dependencies
 
 Install Hugging Face Hub (optional):
 
@@ -95,7 +100,7 @@ conda install -c conda-forge sox
 
 ---
 
-## 6. Clone the model
+## 7. Clone the model
 
 ```cmd
 git clone https://huggingface.co/JusperLee/Apollo
@@ -103,7 +108,7 @@ git clone https://huggingface.co/JusperLee/Apollo
 
 ---
 
-## 7. Create input/output folders
+## 8. Create input/output folders
 
 ```cmd
 mkdir input
